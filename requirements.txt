@@ -1,7 +1,13 @@
-streamlit==1.32.2
+# Core App Dependencies
+streamlit==1.20.0
 deepface==0.0.79
-tensorflow==2.11.0
-keras==2.11.0
-opencv-python==4.8.0.76
-numpy==1.23.5
+opencv-python-headless==4.8.0.76
+numpy==1.24.3
+Pillow==10.3.0
 pandas==1.5.3
+
+# TensorFlow dependency compatible with DeepFace and protobuf
+tensorflow==2.10.1
+
+# Compatibility fix
+protobuf==3.20.3
