@@ -6,4 +6,3 @@ pyarrow==12.0.1
 opencv-python-headless
 deepface
 Pillow
---upgrade pip
